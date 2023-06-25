@@ -1,0 +1,14 @@
+{
+  "metrics_file_path": "./local/mounts/disk/metrics.json",
+  "metrics_dump_interval_ms": 500,
+  "tmpfs_volume_path": "/home/user/filefs",
+  "tmpfs_min_space_left_mb": 1,
+  "grace_period_seconds": 1,
+  "runner_binary_path": "./local/mounts/disk/runner",
+	"symlinks": [
+		{
+			"path": "./local/mounts/disk",
+			"link": "/home/user/tmp"
+		}
+	]
+}
